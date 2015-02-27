@@ -4,7 +4,7 @@ REM Fred Miller - joecacti@yahoo.com
 REM This batch file grabs your IP address and writes it to Evernote.
 REM It creates a new note each time it gets a new IP
 REM You can leave this running on your home computer and your home IP will always be known to you!
-REM Dependencies:  Evernote and GnuWin32 wget
+REM Dependencies:  Evernote and GnuWin32 wget (http://gnuwin32.sourceforge.net/packages/wget.htm)
 
 "C:\Program Files (x86)\GnuWin32\bin\wget.exe" -Oc:\zzz.txt http://bot.whatismyipaddress.com/
 
